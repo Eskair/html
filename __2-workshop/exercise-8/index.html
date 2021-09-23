@@ -1,1 +1,66 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+    <h1>Registration form</h1>
+    <form>
+    <label for="username">Username</label>
+    <input id="username" type="text" required />
+    <label for="password" >password</label>
+    <input id="password" type="password" required>
+    <label for="email">email</label>
+    <input id="email" type="email" required>
+    <h2>Which taxi do you require?</h2>
+      <label>
+        <input type="radio" required name="car" value="car" />
+        Car
+      </label>
+      <label>
+          <input type="radio" required name="van" value="van"/>
+          van
+      </label>
+      <label>
+          <input type="radio" required name="Tuk Tuk" value="Tuk Tuk"/>
+          Tuk Tuk
+      </label>
+      <h2>Choose your extras</h2>
+      <label>
+        <input type="checkbox" required name="car" value="car" />
+        Car
+      </label>
+      <label>
+          <input type="checkbox" required name="van" value="van"/>
+          van
+      </label>
+      <label>
+          <input type="checkbox" required name="Tuk Tuk" value="Tuk Tuk"/>
+          Tuk Tuk
+      </label>
+      <h2>Where would you like us to pick you up?</h2>
+      <label for="pickup">Pickup Location:</label>
+      <select name="pickup">
+          <option value="null" selected>Select One</option>
+          <option value="taxi-office" >taxi-office</option>
+          <option value="town-hall" >town-hall</option>
+          <option value="Hotel" >Hotel</option>
+     </select>
+     <h2>Additional Instructions</h2>
+       <label for="spcial">Special</label>
+       <textarea
+           name="spcial"
+           placeholder="provide spcial instructions here"></textarea>
+       <button>Submit</button>
+    </form>
+
+     
+     
+
+  </body>
+</html>
+
+
